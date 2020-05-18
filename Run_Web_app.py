@@ -14,12 +14,12 @@ from ci1 import App7, update_figure7
 from rang1 import App8, update_figure8
 from help1 import Help
 from homepage import Homepage
-
+import os
 import flask
 # In[2]:
 
 server=flask.Flask(__name__)
-server.secret_key=os.environ.get('secret_key', str(randint(0, 1000000)))
+#server.secret_key=os.environ.get('secret_key', str(randint(0, 1000000)))
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SOLAR],server=server)
 
 
