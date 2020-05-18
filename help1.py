@@ -89,8 +89,7 @@ body = dbc.Container(
                      html.P("""4). Click on the submit button, it sometimes takes some time to generate the result."""),
                      html.P("""Thank You for using our app, if you have any queries, reach us at:""",style={'color':'yellow'}),
                      html.P("""Modhuli Goswami- mdg2197@columbia.edu""",style={'color':'green'}),
-                     html.P("""Alisha Satyarth- as5646@columbia.edu""",style={'color':'green'}),
-                     html.P("""Mihir Kansara- mk4296@columbia.edu""",style={'color':'green'}),
+               
                    ],
                   md=4,
                ),
