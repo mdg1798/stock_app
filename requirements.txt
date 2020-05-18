@@ -50,7 +50,7 @@ dask==2.1.0
 decorator==4.4.0
 defusedxml==0.6.0
 distributed==2.1.0
-Django==2.2.7
+Django==2.2.10
 django-extensions==2.2.5
 docutils==0.14
 entrypoints==0.3
