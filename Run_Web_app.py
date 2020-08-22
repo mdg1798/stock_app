@@ -234,7 +234,7 @@ def update_graph12(n_clicks, value, start_date,end_date,my_ticker_symbol):
 
 if __name__ == "__main__":
     #app.run_server(port=8017)
-    app.server.run()
+    app.server.run(host='0.0.0.0')
 
 
 # In[ ]:
